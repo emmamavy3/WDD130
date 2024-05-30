@@ -9,7 +9,7 @@ nav a {
   text-align: center;
   background-color: #DAB785;
   text-decoration: none;
-  padding: 35px;
+  padding: 25px;
 }
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
@@ -125,7 +125,7 @@ footer .social img{
   padding-top: 15px;
 }
 .msg {
-  background-color: #DAB785;
+  background-color: #04395E;
   line-height: 1.5em;
   padding: 35px;
 }
