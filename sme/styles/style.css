@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
 
 #content {
   max-width: 1600px;
@@ -6,7 +8,7 @@
 }
 
 .logo {
-  width: 80px;
+  width: 40px;
   border-radius: 50%;
 }
 #logo_link {
@@ -26,19 +28,19 @@ nav  {
 
 nav a {
   text-align: center;
-  background-color: #dab785;
+  background-color: #63474D;
   text-decoration: none;
   padding: 25px;
 }
 
 nav a:hover {
-  background-color: #04395e;
+  background-color: #63474D;
   text-decoration: underline;
-  color: #b5ebd9;
+  color: #87A0B2;
 }
 
 header {
-  background-color: #dab785;
+  background-color: #63474D;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -49,7 +51,7 @@ header {
 }
 
 h4 {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
 }
 
 #hero-box {
@@ -65,14 +67,13 @@ h4 {
 
 #hero-img {
   width: 100%;
-  
 }
 
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 100px;
-}
+}  
 
 .button-box {
   text-align: center;
@@ -80,7 +81,7 @@ h4 {
 
 #background {
   height: 725px;
-  background-color: #04395e;
+  background-color: #63474D;
   width: 100%;
   grid-column: 1/11;
   grid-row: 4/9;
@@ -88,22 +89,22 @@ h4 {
 
 body {
   background-color: #fff;
-  font-family: karla;
+  font-family: ;
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 
 .home-title {
-  background-color: #b5ebd9;
-  font-family: oswald;
+  background-color: #87A0B2;
+  font-family: ;
   font-size: 2em;
   margin-top: 10px;
 }
 
 .book,
 .join {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
@@ -113,7 +114,7 @@ body {
 
 .book:hover,
 .join:hover {
-  background-color: #dab785;
+  background-color: #63474D;
   text-decoration: underline;
 }
 
@@ -123,21 +124,11 @@ body {
   margin: 200px 0;
 }
 
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(10, 10%);
-}
-
 .card-img {
   width: 100%;
   border: 10px solid #d9c2a3;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
-}
-
-.card-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
 }
 
 .rivers-card {
@@ -173,16 +164,6 @@ body {
   width: 100%;
 }
 
-.celebrate-card{
-  width: 100%;
-
-}
-
-.summer{
-  width: 100%;
-  grid-column: 8/10;
-  grid-row: 2/3;
-}
 
 main section {
   text-align: center;
@@ -200,14 +181,14 @@ main section img {
 }
 
 .msg h2 {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
 }
 .msg p {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
   padding-bottom: 15px;
 }
 footer {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -215,11 +196,11 @@ footer {
   align-items: center;
 }
 footer a {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
   text-decoration: none;
 }
 footer a:hover {
-  background-color: #dab785;
+  background-color: #63474D;
   text-decoration: underline;
 }
 
@@ -234,7 +215,7 @@ footer .social img {
   padding-top: 15px;
 }
 .msg {
-  background-color: #b5ebd9;
+  background-color: #87A0B2;
   line-height: 1.5em;
   padding: 35px;
   width: 100%;
@@ -249,52 +230,3 @@ h2 {
 h5{
   margin: 0;
 }
-
-
-
-
-
-@media screen and (max-width: 900px) {
-  #hero, .home-grid {
-      display: block;
-      height: auto;
-  }
-  nav, footer {
-      flex-direction: column;
-  }
-  nav a {
-      display: block;
-      padding: 15px;
-  }
-  #hero {
-      margin-top: 0;
-  }
-  #hero-msg {
-      margin-top: 0;
-  }
-  #hero-msg h4 {
-      display: none;
-  }
-  #hero-msg h1 {
-      color: black;
-  }
-  .home-title {
-      font-size: 25px;
-  }
-  .rivers-card, .camping-card, .rapids-card { 
-      margin: 50px auto;
-      width: 60%;
-  }
-  #background {
-      display: none;
-  }
-  .mountains, .msg {
-      width: 80%;
-      display: block;
-      margin: 0 auto;
-  }
-  footer {
-      margin-top: 25px;
-  }
-}
-          
